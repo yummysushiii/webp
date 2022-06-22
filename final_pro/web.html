@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UFT-8"/>
+        <title>賴宸緯</title>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <link rel = "stylesheet" href = "web.css" />
+    </head>
+
+    <body>
+        <div id="banner">
+            <div id='bannertitle'>instagram</div>
+        </div>
+        <hr>
+        <div id="left">
+            <div class="verticalmenu">
+                <ul>
+                    <li><a href="account.html">更換帳號</a></li>
+                    <li><p id="user">使用者介面</p></li>
+                    <li><p id="picture">新增照片</p></li>
+                    <li><p id="new_intro">新增簡介</p></li>
+                    <li><p id="show_intro">修改簡介</p></li>
+                </ul>
+                <div id="newdate" style="display:none">
+                    <input type="text" id="number1" placeholder="想新增的ID" required>
+                    <input type="text" id="text1" placeholder="新增內容" required>
+                    <button id="newdate_cancel" style="float:right; background-color:red;">取消</button>
+                    <button id="new_b" style="float:right">新增</button>
+                </div>
+                <div id="update" style="display:none">
+                    <input type="text" id="number2" placeholder="針對想更改的ID" required>
+                    <input type="text" id="text2" placeholder="修改內容" required>
+                    <button id="update_cancel" style="float:right; background-color:red;">取消</button>
+                    <button id="change_b" style="float:right">更新</button>
+                </div>
+            </div> 
+        </div>
+        <div id = "intro" style="display:none">
+        </div>
+        <br>
+        
+        <div id="right">
+        </div>
+        
+        
+        </div>
+        <script src="web.js"></script>
+    </body>
+</html>

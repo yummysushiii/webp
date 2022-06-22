@@ -1,0 +1,57 @@
+#banner {
+    height:100px;
+    text-align: center;
+    background:  url('pan.jpg') no-repeat bottom center;
+    background-color: white;
+    
+    padding: 0px;
+    margin: 0px;
+}
+#bannertitle{padding-top:40px;font-size:2em;font-weight:bold;}  
+
+#left {
+    background-color: red;
+    float: left;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    background:#bedd10;
+    height: auto;
+    }
+#number {
+    width: 90%;
+}
+#text {
+    width: 90%;
+}
+#intro {
+    float: left;
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+    background: #ffba02;
+    height: auto;
+    }
+#pic{
+    border-style: solid;
+    display: flex;
+    max-width: 300px;
+    max-height: 200px;
+    margin:auto;
+}
+#right{
+    float: left;
+    border-style:solid;
+    width:400px;
+    height:100%;
+}
+#btn{
+    float:right; 
+}
+#del{
+    width :100%;
+}
+#content{
+    width:90%;
+}
+

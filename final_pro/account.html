@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="account.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+    <div class="system_name">
+        <h2>我的網站</h2>
+    </div>
+    
+    <div class="login_page">
+        <div id="container1">
+            <div class="login">  
+                <h3>登入 Login</h3>
+                <form>
+                    <input type="text" id="username1" name="username" placeholder="帳號" required>
+                    <div class="tab"></div>
+                    <input type="text" id="password1" name="password" placeholder="密碼" required>
+                    <div class="tab"></div>
+                    <input type="button" value="登入" id="submit1">
+                </form>  
+                <h5 onclick="show_hide()">註冊帳號</h5>
+            </div>
+        </div>
+    </div>
+    
+    <div class="signup_page">
+        <div id="container2">
+
+            <div class="signup">  
+          
+                <h3>註冊 Sign Up</h3>
+                    <form>
+                        <input type="text" id="fullname" name="fullname" placeholder="使用者全名" required>
+                        <div class="tab"></div>
+                        <input type="text" id="username2" name="username" placeholder="帳號" required>
+                        <div class="tab"></div>
+                        <input type="text" id="password2" name="password" placeholder="密碼" required>
+                        <div class="tab"></div>
+                        <input type="text" id="comfirm_password" name="comfirm_password" placeholder="確認密碼" required>
+                        <div class="tab"></div>            
+                        <input type="button" value="註冊" id="submit2">
+                    </form>  
+
+                    <h5 onclick="show_hide()">登入帳號</h5>
+                </div>
+            </div>
+        </div>
+        <script src="account.js"></script>
+    </body>
+</html>
